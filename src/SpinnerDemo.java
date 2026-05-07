@@ -12,7 +12,7 @@ class SpinnerDemo {
         JSpinner dates = new JSpinner(new SpinnerDateModel( ));
         jf.add(dates);
 
-        // Create a JSPinner using a SpinnerListModel. 
+        // Create a JSpinner using a SpinnerListModel.
         String[] data = { "One", "Two", "Three" };
         JSpinner js = new JSpinner(new SpinnerListModel(data));
         jf.add(js);
