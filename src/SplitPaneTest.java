@@ -3,7 +3,7 @@ import java.awt.event.*;
 import javax.swing.*;
 
 class SplitPaneTest {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         JFrame frame = new JFrame("JSplitPane");
         JButton b1 = new JButton("One");
         JButton b2 = new JButton("Two");
