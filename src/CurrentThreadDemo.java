@@ -1,6 +1,7 @@
 // Controlling the main Thread.
 class CurrentThreadDemo {
     public static void main(String[] args) {
+        // function current Thread
         Thread t = Thread.currentThread();
         System.out.println("Current thread: " + t);
 
