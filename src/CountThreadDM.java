@@ -8,7 +8,7 @@ class CountThreadDM extends Thread {
     public void run(){
         for (int i = from; i < to; i++){
             try {
-                Thread.sleep(500);
+                Thread.sleep(50);
                 System.out.println("i = " + i);
             } catch(InterruptedException ie){}
         }
@@ -16,7 +16,7 @@ class CountThreadDM extends Thread {
     public static void main(String[] args){
         for (int i = 0; i < 5; i++){
             CountThreadDM thrd = new CountThreadDM(i*200, (i+1)*200);
-            thrd.start();
+            thrd.start();//start thread
         }
     }
 }
