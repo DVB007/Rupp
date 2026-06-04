@@ -15,7 +15,7 @@ class ShowFile {
         int i;
         FileInputStream fin;
         try {
-            fin = new FileInputStream("D:/year2/a4y2/MyThis.java");
+            fin = new FileInputStream("/Users/phinsopheacheadavid/Documents/Java2/RUPP");
         } catch(FileNotFoundException exc) {
             System.out.println("File Not Found");
             return;
