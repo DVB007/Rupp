@@ -1,4 +1,4 @@
-// Use a custom comparator.
+package Comparator;// Use a custom comparator.
 import java.util.*;
 
 // A reverse comparator for strings.
